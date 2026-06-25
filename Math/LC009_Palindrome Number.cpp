@@ -15,7 +15,7 @@ public:
     }
     bool isPalindrome(int n) {
        if(n < 0) return false;
-       int revNum == reverse(n);
+       int revNum = reverse(n);
           return n == revNum;
     }
 };
